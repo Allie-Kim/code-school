@@ -27,12 +27,15 @@ body {
 }
 
 body {
+  align-items: center;
   background: #2a1a12;
   color: #99a6a7;
   font-family: 'Milonga', cursive;
   font-size: 18px;
   margin: 0;
   padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -117,6 +120,9 @@ fieldset {
 
 .interior {
   background: #f6f7f7;
+  /*flex-wrap: wrap;*/
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .interior header,
@@ -124,6 +130,7 @@ fieldset {
   background: #281910;
   padding: 10px;
   text-align: center;
+  width: 100%;
 }
 
 .interior main {
@@ -166,6 +173,9 @@ fieldset {
 
 .profile-controls {
   margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* ------------------------------------- */
